@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.seta {
+  width: 35px;
+  margin: 25px;
+}
+
+.geral-forms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.formulario {
+  background-color: rgba(255, 255, 255, 0.719);
+  width: 600px;
+  height: 700px;
+  border-radius: 10px;
+}
+
+.ocorrencia-aluno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+#nome,
+#matricula,
+#turma,
+#data,
+select,
+textarea {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #454d6b;
+  background-color: rgba(255, 255, 255, 0.719);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #a13854;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover {
+  background-color: #a83856ad;
+}

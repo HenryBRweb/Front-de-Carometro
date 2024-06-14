@@ -1,0 +1,52 @@
+body {
+  background-color: #3d4561;
+}
+
+.flex_titulo {
+  display: flex;
+  justify-content: center;
+}
+
+#titulo_design_idev2 {
+  background-color: #e9fffa;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.img_idev2 {
+  display: flex;
+  justify-content: center;
+}
+
+#desing_idev2 {
+  width: 300px;
+  height: 300px;
+  margin: 100px;
+}
+
+.perfil_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.img_perfil {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#voltar{
+  font-size: 22px;
+  margin-bottom: 20px;
+}

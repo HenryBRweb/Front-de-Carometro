@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sedan", serif;
+}
+
+.geral {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #454d6b;
+}
+
+.login-container {
+  width: 30%;
+  height: 500px;
+  padding: 50px;
+  background-color: #353b50;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-name {
+  color: white;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  margin-bottom: 70px;
+  font-size: 40px;
+}
+
+.form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.usuario-form,
+.senha-form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.usuario,
+.senha {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  font-size: 15px;
+}
+
+.usuario-form {
+  margin-bottom: 50px;
+}
+
+.user,
+.password {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.login{
+    margin-left: 15px;
+}
+
+.login,
+.cadast {
+  padding: 10px 20px;
+  background-color: #A13854;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#login-button {
+  background-color: #A13854;
+  color: #ffffff; 
+  border: none;
+}
+
+#login-button:hover {
+  background-color: #a83856ad;
+  border-color: #cc0000;
+}
+
+#cadastro-button {
+  background-color: #A13854;
+  color: #ffffff;
+  border: none;
+}
+
+#cadastro-button:hover {
+  background-color: #a83856ad; 
+}
